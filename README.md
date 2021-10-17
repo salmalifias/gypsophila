@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/salmalifias/gypsophila_fe/blob/master/src/assets/images/gypsophilagelap.png">
-    <img src="https://github.com/salmalifias/gypsophila_fe/blob/master/src/assets/images/gypsophilagelap.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/salmalifias/gypsophila_fe/blob/master/src/assets/images/gypsophilagelap.png" alt="Logo" width="200" height="100">
   </a>
 
   <h2 align="center">Gypsophila - Front-End</h2>
