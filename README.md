@@ -32,7 +32,7 @@ https://github.com/salmalifias/gypsophila_be
 ### Setup Front-End Service
 1. Clone https://github.com/salmalifias/gypsophila_fe
 ```sh
-git clone https://github.com/salmalifias/gypsophila_be
+git clone https://github.com/salmalifias/gypsophila_fe
 ```
 2. Move to directory project
 ```sh
