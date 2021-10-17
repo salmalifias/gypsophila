@@ -19,7 +19,7 @@ class LandingPage extends Component {
   }
 
   componentDidMount() {
-    window.title = "Staycation | Home";
+    window.title = "Gypsophila | Beranda";
     window.scrollTo(0, 0);
 
     if (!this.props.page.landingPage)

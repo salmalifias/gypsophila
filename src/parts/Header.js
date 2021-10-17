@@ -16,8 +16,8 @@ export default function Header(props) {
         <header className="spacing-sm">
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
-              <Button className="brand-text-icon mx-auto" href="" type="link">
-                Catering<span className="text-gray-900">Kita.</span>
+              <Button className="mx-auto" href="" type="link">
+              <BrandIconWhite />
               </Button>
             </nav>
           </div>
@@ -74,7 +74,7 @@ export default function Header(props) {
                   </Button>
                 </li>
                 <li>
-                  <Button className="btn px-5" hasShadow isPrimary>
+                  <Button className="btn px-5" type="link" href="/login" hasShadow isPrimary>
                     Login
                   </Button>
                 </li>

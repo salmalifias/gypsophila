@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "pages/LandingPage";
 import DetailsPage from "pages/DetailsPage";
 import Checkout from "pages/Checkout";
+import Login from "pages/Login";
 import PageNotFound from "pages/PageNotFound";
 //import Example from "pages/ExamplePage";
 
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/properties/:id" component={DetailsPage} />
           <Route path="/checkout" component={Checkout} />
+          <Route path="/login" component={Login} />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>

@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import Button from "elements/Button";
+import BrandIconWhite from "parts/IconTextWhite";
 import BrandIcon from "parts/IconText";
 
 export default function HeaderDetail(props) {
@@ -16,7 +17,7 @@ export default function HeaderDetail(props) {
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Button className="brand-text-icon mx-auto" href="" type="link">
-                Catering<span className="text-gray-900">kita.</span>
+                <BrandIconWhite />
               </Button>
             </nav>
           </div>
@@ -48,22 +49,27 @@ export default function HeaderDetail(props) {
               <ul className="navbar-nav ml-auto">
                 <li className={`nav-item ${getNavLinkClass("/")}`}>
                   <Button className="nav-link-detail" type="link" href="/">
-                    Home
+                    Beranda
                   </Button>
                 </li>
-                <li className={`nav-item ${getNavLinkClass("/browse-by")}`}>
-                  <Button className="nav-link-detail" type="link" href="/browse-by">
-                    Browse By
+                <li className={`nav-item ${getNavLinkClass("/tentang")}`}>
+                  <Button className="nav-link-detail" type="link" href="/tentang">
+                    Tentang
                   </Button>
                 </li>
-                <li className={`nav-item ${getNavLinkClass("/stories")}`}>
-                  <Button className="nav-link-detail" type="link" href="/stories">
-                    Stories
+                <li className={`nav-item ${getNavLinkClass("/galeri")}`}>
+                  <Button className="nav-link-detail" type="link" href="/galeri">
+                    Galeri
                   </Button>
                 </li>
-                <li className={`nav-item ${getNavLinkClass("agent/")}`}>
-                  <Button className="nav-link-detail" type="link" href="/agent">
-                    Agent
+                <li className={`nav-item ${getNavLinkClass("/mu-artist")}`}>
+                  <Button className="nav-link-detail" type="link" href="/mu-artist">
+                    MU Artist
+                  </Button>
+                </li>
+                <li>
+                  <Button className="btn px-5" type="link" href="/login" hasShadow isPrimary>
+                    Login
                   </Button>
                 </li>
               </ul>

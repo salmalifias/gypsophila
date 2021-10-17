@@ -35,7 +35,7 @@ class DetailsPage extends Component {
 
     const breadcrumb = [
       { pageTitle: "Home", pageHref: "" },
-      { pageTitle: "Catering Details", pageHref: "" },
+      { pageTitle: "MakeUp Details", pageHref: "" },
     ];
 
     return (
