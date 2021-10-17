@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/salmalifias/djakafe_frontend">
+  <a href="gypsophila_fe/src/assets/images/gypsophilagelap.png">
     <img src="https://github.com/salmalifias/gypsophila_fe/src/asset/images/gypsophilagelap.png" alt="Logo" width="100" height="100">
   </a>
 
