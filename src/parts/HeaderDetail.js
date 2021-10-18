@@ -45,7 +45,7 @@ export default function HeaderDetail(props) {
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse" id="navbar-cateringkita">
+            <div className="collapse navbar-collapse mt-2" id="navbar-cateringkita">
               <ul className="navbar-nav ml-auto">
                 <li className={`nav-item ${getNavLinkClass("/")}`}>
                   <Button className="nav-link-detail" type="link" href="/">

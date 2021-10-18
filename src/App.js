@@ -3,9 +3,11 @@ import { ToastContainer } from "react-toastify";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import LandingPage from "pages/LandingPage";
+import Tentang from "pages/Tentang";
 import DetailsPage from "pages/DetailsPage";
 import Checkout from "pages/Checkout";
 import Login from "pages/Login";
+import Register from "pages/Register";
 import PageNotFound from "pages/PageNotFound";
 //import Example from "pages/ExamplePage";
 
@@ -21,9 +23,11 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
+          <Route exact path="/tentang" component={Tentang} />
           <Route exact path="/properties/:id" component={DetailsPage} />
           <Route path="/checkout" component={Checkout} />
           <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
