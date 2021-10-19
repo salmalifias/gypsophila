@@ -4,6 +4,7 @@ import Button from "elements/Button";
 import IconText from "parts/IconText";
 
 export default function Footer() {
+
   return (
     <>
       <footer className="d-none d-lg-block">

@@ -9,6 +9,7 @@ import Checkout from "pages/Checkout";
 import Login from "pages/Login";
 import Register from "pages/Register";
 import PageNotFound from "pages/PageNotFound";
+import Term from "pages/Term";
 //import Example from "pages/ExamplePage";
 
 import "assets/scss/style.scss";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/checkout" component={Checkout} />
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
+          <Route path="/term" component={Term} />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>

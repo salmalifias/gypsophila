@@ -34,6 +34,7 @@ const Detail = styled.span`
     font-weight: 400;
     text-align: justify;
     position:absolute;
+    margin-right: 120px;
 `;
 
     return (
