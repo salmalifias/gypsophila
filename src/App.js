@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "pages/LandingPage";
 import Tentang from "pages/Tentang";
 import DetailsPage from "pages/DetailsPage";
+import Muartist from "pages/Muartist";
 import Checkout from "pages/Checkout";
 import Login from "pages/Login";
 import Register from "pages/Register";
@@ -25,6 +26,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/tentang" component={Tentang} />
+          <Route exact path="/mu-artist" component={Muartist} />
           <Route exact path="/properties/:id" component={DetailsPage} />
           <Route path="/checkout" component={Checkout} />
           <Route path="/login" component={Login} />

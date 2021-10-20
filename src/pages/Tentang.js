@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import HeaderDetail from "parts/HeaderDetail";
 import Footer from "parts/Footer";
 import styled from "styled-components";
+import Card from "parts/Card";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Tentang extends Component {
   render() {
@@ -28,6 +31,7 @@ const TitleCabang = styled.h1`
     // text-align: left;
     font-weight: 500;
     margin-top: 240px;
+    margin-bottom: 30px;
 `;
 const Detail = styled.span`
     font-style: normal;
@@ -49,10 +53,32 @@ const Detail = styled.span`
                 <br></br>Lokasi Kantor             : Jl. Puri Casablanca, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12870
             </Detail>
             <TitleCabang>Pengembang Aplikasi</TitleCabang>
+                <Row xs="auto" className="g-4">
+                  <Col lg={true}>
+                    <Card className="m-5 d-block"
+                      title='Sharashena Chairani'
+                      imageUrl='https://pbs.twimg.com/media/FCIpG1FUcAsZw2M?format=jpg&name=small'
+                      body='Project Manager' />
+                  </Col>
+                  <Col lg={true}>
+                    <Card className="m-5 d-block"
+                      title='Hana Meilina F'
+                      imageUrl='https://pbs.twimg.com/media/FCIpmqeVIAUCk9Q?format=jpg&name=small'
+                      body='Front End Developer' />
+                  </Col>
+                  <Col lg={true}>
+                    <Card className="m-5 d-block"
+                      title='Salma Alifia Shafira'
+                      imageUrl='https://pbs.twimg.com/media/FCIUidiVUAMytzp?format=jpg&name=900x900'
+                      body='Back End Developer' />
+                  </Col>
+              </Row>
+            
             
             </Wrapper>
+            <Footer />
         </Container>
-        <Footer />
+        
       </>
     );
   }
