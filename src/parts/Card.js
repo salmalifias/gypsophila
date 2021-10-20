@@ -12,7 +12,7 @@ function Card({title,imageUrl,body}){
                 <h5>{title}</h5>
             </div>
             <div className="card-body">
-                <p>{body}</p>
+                <h6>{body}</h6>
             </div>
             </div>
         </div>

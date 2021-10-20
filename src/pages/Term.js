@@ -5,12 +5,12 @@ import styled from "styled-components";
 
 class Term extends Component {
   render() {
-    const Container = styled.div`
-        width: 100vw;
-        height: 100vh;
-    `;
+    // const Container = styled.div`
+    //     width: 100vw;
+    //     height: 100vh;
+    // `;
 
-    const Text1 = styled.a`
+    const Text1 = styled.div`
         text-align: center;
         color: #6589AB;
         margin: 5px 0;
@@ -26,7 +26,7 @@ class Term extends Component {
     return (
       <>
         <Header {...this.props}></Header>
-        <Container>
+        {/* <Container> */}
             <Text1> 
             <h2>Terms and Conditions</h2>
             </Text1>
@@ -163,7 +163,7 @@ class Term extends Component {
                 <p>For beauty partners, you can contact your Account Manager if you have any queries regarding any of your Gypsophila account and membership.</p>
             </Paragraf>
             <Footer/>
-        </Container> 
+        {/* </Container>  */}
       </>
     );
   }

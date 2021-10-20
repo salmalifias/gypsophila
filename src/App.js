@@ -11,6 +11,8 @@ import Login from "pages/Login";
 import Register from "pages/Register";
 import PageNotFound from "pages/PageNotFound";
 import Term from "pages/Term";
+import Galeri from "pages/Galeri";
+import Help from "pages/Help";
 //import Example from "pages/ExamplePage";
 
 import "assets/scss/style.scss";
@@ -32,6 +34,8 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/term" component={Term} />
+          <Route path="/galeri" component={Galeri} />
+          <Route path="/help" component={Help} />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
