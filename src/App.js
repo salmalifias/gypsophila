@@ -13,6 +13,8 @@ import PageNotFound from "pages/PageNotFound";
 import Term from "pages/Term";
 import Galeri from "pages/Galeri";
 import Help from "pages/Help";
+import Profile from "pages/Profile";
+import Notifikasi from "pages/Notifikasi";
 //import Example from "pages/ExamplePage";
 
 import "assets/scss/style.scss";
@@ -36,6 +38,8 @@ function App() {
           <Route path="/term" component={Term} />
           <Route path="/galeri" component={Galeri} />
           <Route path="/help" component={Help} />
+          <Route path="/profile" component={Profile} />
+          <Route path="/notifikasi" component={Notifikasi} />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
