@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "parts/HeaderDetail";
+import HeaderDark from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 
@@ -11,10 +11,11 @@ class Term extends Component {
     // `;
 
     const Text1 = styled.div`
-        text-align: center;
-        color: #6589AB;
-        margin: 5px 0;
-        font-weight: bold;
+    font-size: 24px;
+    font-weight: 1200;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 45px;
     `;
     const Paragraf = styled.div`
         margin-left: 120px;
@@ -25,7 +26,7 @@ class Term extends Component {
 
     return (
       <>
-        <Header {...this.props}></Header>
+        <HeaderDark {...this.props}></HeaderDark>
         {/* <Container> */}
             <Text1> 
             <h2>Terms and Conditions</h2>

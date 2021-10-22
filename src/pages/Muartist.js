@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import HeaderDetail from "parts/HeaderDetail";
+import HeaderDark from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Card from "parts/Card";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { GrLocation } from "react-icons/gi";
+//import { GrLocation } from "react-icons/gi";
 
 class Muartist extends Component {
   render() {
@@ -16,43 +16,23 @@ const Container = styled.div`
 const Wrapper = styled.div`
     padding-left: 100px;
 `;
-const Image = styled.img`
-    width: 80%;
-`;
 const Title = styled.h1`
     font-size: 24px;
     font-weight: 1200;
-    // text-align: left;
+    text-align: left;
     font-weight: 500;
     margin-bottom: 45px;
-`;
-const TitleCabang = styled.h1`
-    font-size: 24px;
-    font-weight: 1200;
-    // text-align: left;
-    font-weight: 500;
-    margin-top: 240px;
-    margin-bottom: 30px;
-`;
-const Detail = styled.span`
-    font-style: normal;
-    font-weight: 400;
-    text-align: justify;
-    position:absolute;
-    margin-right: 120px;
 `;
 
     return (
       <>
-        <HeaderDetail {...this.props} />
-        {/* <Header {...this.props}></Header> */}
+        <HeaderDark {...this.props} />
         <Container>
             <Wrapper>
             <Title>Makeup Artist</Title>
-            
                 <Row xs="auto" className="g-4">
                   <Col lg={true}>
-                    <Card className="m-5 d-block"
+                    <Card className="m-5 d-block text-center"
                       title='By Jessica'
                       imageUrl='https://www.hellobeauty.id/storage/images/cache/user/5679/b71985397688d6f1820685dde534981b-350-200.jpg'
                       body='Jakarta Pusat' />

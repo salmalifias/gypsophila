@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "parts/Header";
+import HeaderDark from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 
@@ -92,7 +92,7 @@ const Link = styled.a`
 `;
     return (
       <>
-        <Header {...this.props}></Header>
+        <HeaderDark {...this.props}></HeaderDark>
         <Container>
             <RegisterWrapper>
                 <Right>

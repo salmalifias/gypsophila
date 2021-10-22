@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "parts/HeaderDetail";
+import HeaderDark from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Card from "parts/Card";
@@ -17,12 +17,12 @@ class Galeri extends Component {
     `;
 
     const Text2 = styled.div`
-        text-align: Left;
-        color: #6589AB;
-        margin: 5px 0;
-        font-weight: bold;
-        margin-bottom: 50px;
-    `;
+        font-size: 24px;
+        font-weight: 1200;
+        text-align: left;
+        font-weight: 500;
+        margin-bottom: 45px;
+`;
 
     const Image = styled.img`
     width: 80%;
@@ -31,7 +31,7 @@ class Galeri extends Component {
 
     return (
       <>
-        <Header {...this.props}></Header>
+        <HeaderDark {...this.props}></HeaderDark>
         <Containerr>
           <Text2>
             <h2>Galeri</h2>

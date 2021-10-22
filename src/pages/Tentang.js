@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeaderDetail from "parts/HeaderDetail";
+import HeaderDark from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Card from "parts/Card";
@@ -43,7 +43,7 @@ const Detail = styled.span`
 
     return (
       <>
-        <HeaderDetail {...this.props} />
+        <HeaderDark {...this.props} />
         {/* <Header {...this.props}></Header> */}
         <Container>
             <Wrapper>

@@ -98,7 +98,7 @@ class Checkout extends Component {
     const steps = {
       bookingInformation: {
         title: "Booking Information",
-        description: "Silahkan isi form dibawah ini",
+        description: "Cek kembali pesanan dan data diri anda!",
         content: (
           <BookingInformation
             data={data}

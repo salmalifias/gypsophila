@@ -18,7 +18,7 @@ export default function Categories({ data }) {
               {category.itemId.length === 0 ? (
                 <div className="row">
                   <div className="col-12 align-items-center">
-                    There is no properti at this category
+                    There is no properti at this Package.
                   </div>
                 </div>
               ) : (
@@ -33,7 +33,7 @@ export default function Categories({ data }) {
                           {item.isPopular && (
                             <div className="tag">
                               Paling{" "}
-                              <span className="font-weight-light">Laris</span>
+                              <span className="font-weight-light">Laku</span>
                             </div>
                           )}
                           <figure
@@ -105,7 +105,7 @@ export default function Categories({ data }) {
                           {item.isPopular && (
                             <div className="tag" style={{ borderRadius: 5 }}>
                               Paling{" "}
-                              <span className="font-weight-light">Laris</span>
+                              <span className="font-weight-light">Laku</span>
                             </div>
                           )}
                           <figure

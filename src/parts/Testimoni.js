@@ -92,7 +92,7 @@ export default function Testimoni({ data }) {
                         ></Star>
                       </div>
 
-                      <h5>{item.name}</h5>
+                      <h7>{item.name}</h7>
                       <span className="text-gray-500">{item.pekerjaan}</span>
                       <p className="mt-3">{item.content}</p>
                     </div>
