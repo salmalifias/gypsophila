@@ -98,11 +98,11 @@ class BookingForm extends Component {
           </span>
         </h5>
 
-        <label htmlFor="jml_order">Ingin tambah porsinya?</label>
+        <label htmlFor="jml_order">Ingin tambah jumlah orang?</label>
         <InputNumber
           min={this.props.itemDetails.min_order}
           max={100}
-          suffix={" porsi"}
+          suffix={" orang"}
           onChange={this.updateData}
           name="jml_order"
           value={data.jml_order}

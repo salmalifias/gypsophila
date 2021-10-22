@@ -10,7 +10,7 @@ export default function Footer() {
       <footer className="d-none d-lg-block">
         <div className="container">
           <div className="row">
-            <div className="col-auto" style={{ width: 350 }}>
+            <div className="col-auto mr-5 ml-5" style={{ width: 350 }}>
               <IconText />
               <p className="brand-tagline">
                 Pemesanan jasa makeup artist profesional yang mudah dan praktis
@@ -36,7 +36,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div> */}
-            <div className="col-auto">
+            <div className="col-auto mr-5">
               <h6 className="mt-2">Explore Us</h6>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
@@ -45,18 +45,13 @@ export default function Footer() {
                   </Button>
                 </li>
                 <li className="list-group-item">
-                  <Button type="link" href="/privacy">
-                    Privacy
-                  </Button>
-                </li>
-                <li className="list-group-item">
                   <Button type="link" href="/term">
-                    Term and Conditions
+                    Terms and Conditions
                   </Button>
                 </li>
               </ul>
             </div>
-            <div className="col-auto">
+            <div className="col-auto mr-1">
               <h6 className="mt-2">Become Part of Us!</h6>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
