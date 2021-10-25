@@ -5,7 +5,7 @@ function Cardsimple({title,body}){
     return (
         <div className='card-containerrr'>
             <div className="card-contentt">
-                <div className="card-titlee" style={{textAlign:"left"}}>
+                <div className="card-titlee">
                     <h5 style={{textAlign:"left"}}>{title}</h5>
                 </div>
                 <div className="card-bodyy">

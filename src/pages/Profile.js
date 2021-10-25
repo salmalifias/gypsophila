@@ -38,16 +38,16 @@ class Profile extends Component {
             </Text1>
             <Paragraf>
                 
-                <Row xs="auto" className="g-4">
-                <Col lg={true}>
-                <img style={{width:'100px', height:'100px', marginLeft:'135px', marginBottom:'20px', marginTop:'10px', borderRadius:'100px'}} src="https://i.ytimg.com/vi/b5uTEXCkDq8/maxresdefault.jpg"/>
+                <Row lg={true}>
+                <Col lg={true} xs lg="4">
+                <img style={{width:'100px', height:'100px', marginLeft:'140px', marginBottom:'20px', marginTop:'10px', marginRight:'140px'}} src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/000000/external-User-essential-collection-bearicons-glyph-bearicons.png" rounded fluid />
                     <Cardp 
                         body1='Salma Alifia Safira'/>
-                    <Cardp className="m-5 d-block"
+                    <Cardp 
                         body1='Profil' body2='Pemesanan' body3='Keluar'/>
                 </Col>
-                <Col lg={true}>
-                    <Cardprofile className="m-5 d-block"
+                <Col lg={true} md="auto">
+                    <Cardprofile 
                         title='Lengkapi Profil' body1='Nama Lengkap' body2='Alamat' body3='No WhatsApp' body4='Email'/>
                 </Col>
                 </Row>
