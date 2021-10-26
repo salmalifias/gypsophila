@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "parts/HeaderDetail";
+import Header from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Cardp from "parts/Cardp";

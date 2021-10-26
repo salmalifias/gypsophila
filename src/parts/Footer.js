@@ -1,17 +1,18 @@
 import React from "react";
 
 import Button from "elements/Button";
+import IconTextWhite from "parts/IconTextWhite";
 import IconText from "parts/IconText";
 
 export default function Footer() {
 
   return (
     <>
-      <footer className="d-none d-lg-block">
+      <footer style={{backgroundColor:"#3F4D5A"}} className="d-none d-lg-block">
         <div className="container">
           <div className="row">
             <div className="col-auto mr-5 ml-5" style={{ width: 350 }}>
-              <IconText />
+              <IconTextWhite />
               <p className="brand-tagline">
                 Pemesanan jasa makeup artist profesional yang mudah dan praktis
               </p>
@@ -36,15 +37,15 @@ export default function Footer() {
                 </li>
               </ul>
             </div> */}
-            <div className="col-auto mr-5">
+            <div  className="col-auto mr-5">
               <h6 className="mt-2">Explore Us</h6>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">
+                <li style={{backgroundColor:"#3F4D5A"}} className="list-group-item">
                   <Button type="link" href="/help">
                     Help
                   </Button>
                 </li>
-                <li className="list-group-item">
+                <li style={{backgroundColor:"#3F4D5A"}} className="list-group-item">
                   <Button type="link" href="/term">
                     Terms and Conditions
                   </Button>
@@ -54,11 +55,11 @@ export default function Footer() {
             <div className="col-auto mr-1">
               <h6 className="mt-2">Become Part of Us!</h6>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">
+                <li style={{backgroundColor:"#3F4D5A"}} className="list-group-item">
                   <span>Kamu Makeup Artist dan ingin <br/>
                   bergabung bersama kami?</span>
                 </li>
-                <li className="list-group-item">
+                <li style={{backgroundColor:"#3F4D5A"}} className="list-group-item">
                   <Button
                     isExternal
                     type="link"
@@ -67,7 +68,7 @@ export default function Footer() {
                     info@gypsophila.com
                   </Button>
                 </li>
-                <li className="list-group-item">
+                <li style={{backgroundColor:"#3F4D5A"}} className="list-group-item">
                   <Button isExternal type="link" href="tel:021001122334455">
                     021-001122334455
                   </Button>

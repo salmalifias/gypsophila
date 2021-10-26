@@ -43,8 +43,7 @@ const Detail = styled.span`
 
     return (
       <>
-        <HeaderDark {...this.props} />
-        {/* <Header {...this.props}></Header> */}
+        <HeaderDark {...this.props}></HeaderDark>
         <Container>
             <Wrapper>
             <Title>Tentang Kami</Title>
@@ -76,12 +75,11 @@ const Detail = styled.span`
                       body='Back End Developer' />
                   </Col>
               </Row>
-            
-            
+
             </Wrapper>
             <Footer />
         </Container>
-        
+
       </>
     );
   }

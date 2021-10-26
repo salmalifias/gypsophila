@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeaderDark from "parts/HeaderDark";
+import Header from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Card from "parts/Card";
@@ -31,7 +31,7 @@ class Help extends Component {
 
     return (
       <>
-        <HeaderDark {...this.props}></HeaderDark>
+        <Header {...this.props}></Header>
         <Containerr>
           <Text3>
             <h2>Apa yang bisa kami bantu?</h2>
@@ -57,9 +57,9 @@ class Help extends Component {
                   </Col>
               </Row>
         
-              <Footer/>
+              
         </Containerr> 
-        
+        <Footer/>
       </>
     );
   }

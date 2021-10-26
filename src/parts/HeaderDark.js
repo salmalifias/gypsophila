@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import Button from "elements/Button";
+import BrandIconWhite from "parts/IconTextWhite";
 import BrandIcon from "parts/IconText";
 
 export default function Header(props) {
@@ -26,11 +27,11 @@ export default function Header(props) {
 
   return (
     <Fade>
-      <header className="spacing-sm">
+      <header style={{backgroundColor:"#3F4D5A"}} className="spacing-sm">
         <nav className="navbar navbar-expand-lg shadow-sm">
           <div className="container">
             <div className="d-none d-lg-block">
-              <BrandIcon />
+              <BrandIconWhite />
             </div>
 
             <div className="d-block d-lg-none">

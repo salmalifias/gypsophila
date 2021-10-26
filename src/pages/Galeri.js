@@ -93,9 +93,9 @@ class Galeri extends Component {
                   </Col>
               </Row>
         
-              <Footer/>
+              
         </Containerr> 
-        
+        <Footer/>
       </>
     );
   }

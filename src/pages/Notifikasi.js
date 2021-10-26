@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "parts/HeaderDetail";
+import HeaderDark from "parts/HeaderDark";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Cardsimple from "parts/Cardsimple";
@@ -33,7 +33,7 @@ class Notifikasi extends Component {
 
     return (
       <>
-        <Header {...this.props}></Header>
+        <HeaderDark {...this.props}></HeaderDark>
         <Containerr fluid>
             <Text1> 
             <h2>Notifikasi</h2>

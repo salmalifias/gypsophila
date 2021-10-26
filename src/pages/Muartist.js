@@ -26,7 +26,7 @@ const Title = styled.h1`
 
     return (
       <>
-        <HeaderDark {...this.props} />
+        <HeaderDark {...this.props}></HeaderDark>
         <Container>
             <Wrapper>
             <Title>Makeup Artist</Title>
