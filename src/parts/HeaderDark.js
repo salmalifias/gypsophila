@@ -4,10 +4,6 @@ import Fade from "react-reveal/Fade";
 import Button from "elements/Button";
 import BrandIcon from "parts/IconText";
 
-// .color-nav {
-//   background-color: rgb(95,174,);
-// }
-
 export default function Header(props) {
   const getNavLinkClass = (path) => {
     return props.location.pathname === path ? " active" : "";

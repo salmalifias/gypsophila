@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 const Image = styled.img`
     width: 80%;
 `;
-const Title = styled.h1`
+const Title = styled.h4`
     font-size: 24px;
     font-weight: 1200;
     // text-align: left;
@@ -56,20 +56,23 @@ const Detail = styled.span`
                 <Row xs="auto" className="g-4">
                   <Col lg={true}>
                     <Card className="m-5 d-block"
-                      title='Sharashena Chairani'
-                      imageUrl='https://pbs.twimg.com/media/FCIpG1FUcAsZw2M?format=jpg&name=small'
+                      title='Sharashena C'
+                      imageUrl='https://pbs.twimg.com/media/FCm9SFjUYAA85Kt?format=jpg&name=small'
+                      subtitle='140810180022'
                       body='Project Manager' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Hana Meilina F'
-                      imageUrl='https://pbs.twimg.com/media/FCIpmqeVIAUCk9Q?format=jpg&name=small'
+                      imageUrl='https://pbs.twimg.com/media/FCm9SFmVkAU1vrf?format=jpg&name=small'
+                      subtitle='140810180012'
                       body='Front End Developer' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Salma Alifia Shafira'
-                      imageUrl='https://pbs.twimg.com/media/FCIUidiVUAMytzp?format=jpg&name=900x900'
+                      imageUrl='https://pbs.twimg.com/media/FCm9SFiVgAMwj2B?format=jpg&name=900x900'
+                      subtitle='140810180058'
                       body='Back End Developer' />
                   </Col>
               </Row>
