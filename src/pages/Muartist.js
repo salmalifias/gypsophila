@@ -10,8 +10,11 @@ import Col from 'react-bootstrap/Col';
 class Muartist extends Component {
   render() {
 const Container = styled.div`
-    width: 90vw;
-    height: 100vh;
+    // width: 90vw;
+    // height: 100vh;
+    // margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
 `;
 const Wrapper = styled.div`
     padding-left: 100px;
@@ -86,12 +89,9 @@ const Title = styled.h1`
                       body='Jakarta Selatan' />
                   </Col>
               </Row>
-            
-            
             </Wrapper>
-            <Footer />
         </Container>
-        
+        <Footer />
       </>
     );
   }

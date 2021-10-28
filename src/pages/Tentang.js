@@ -9,8 +9,11 @@ import Col from 'react-bootstrap/Col';
 class Tentang extends Component {
   render() {
     const Container = styled.div`
-    width: 90vw;
-    height: 100vh;
+    // width: 90vw;
+    // height: 100vh;
+    // margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
 `;
 const Wrapper = styled.div`
     padding-left: 100px;
@@ -77,9 +80,9 @@ const Detail = styled.span`
               </Row>
 
             </Wrapper>
-            <Footer />
+            
         </Container>
-
+        <Footer />
       </>
     );
   }
