@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "parts/HeaderDark";
+import HeaderMember from "parts/HeaderMember";
 import Footer from "parts/Footer";
 import styled from "styled-components";
 import Cardp from "parts/Cardp";
@@ -31,7 +31,7 @@ class Profile extends Component {
 
     return (
       <>
-        <Header {...this.props}></Header>
+        <HeaderMember {...this.props}></HeaderMember>
         {/* <Container> */}
             <Text1> 
             <h2>Profile</h2>
