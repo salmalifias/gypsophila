@@ -18,6 +18,12 @@ class TentangMember extends Component {
 const Wrapper = styled.div`
     padding-left: 100px;
 `;
+<<<<<<< Updated upstream
+=======
+// const Image = styled.img`
+//     width: 80%;
+// `;
+>>>>>>> Stashed changes
 const Title = styled.h4`
     font-size: 24px;
     font-weight: 1200;

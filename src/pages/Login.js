@@ -16,6 +16,19 @@ const LoginWrapper = styled.div`
     align-items: center;
     justify-content: center;
 `;
+<<<<<<< Updated upstream
+=======
+// const Left = styled.div`
+//     flex: 3;
+//     height: 100vh;
+//     display: flex;
+//     align-items: end;
+//     justify-content: center;
+// `;
+// const Image = styled.img`
+//     width: 80%;
+// `;
+>>>>>>> Stashed changes
 const Right = styled.div`
     flex: 2;
     height: 100vh;

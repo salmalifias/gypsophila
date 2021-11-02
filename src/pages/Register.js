@@ -1,8 +1,7 @@
-import React, { Component } from "react";
-import HeaderDark from "parts/HeaderDark";
-import Footer from "parts/Footer";
-import styled from "styled-components";
+import React from "react";
+import Fade from "react-reveal/Fade";
 
+<<<<<<< Updated upstream
 class Register extends Component {
   render() {
     const Container = styled.div`
@@ -19,101 +18,101 @@ const RegisterWrapper = styled.div`
 const Right = styled.div`
     flex: 2;
     height: 100vh;
+=======
+import { InputText } from "elements/Form";
+>>>>>>> Stashed changes
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`;
+export default function Register(props) {
+  const { data } = props;
 
-const Wrapper = styled.div`
-    margin-top: 0px;
-    width: 75%;
-    height: 100%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 30px 30px;
-    background-color: white;    
-`;
-const Title = styled.h1`
-    font-size: 24px;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 20px;
-`;
-const Form = styled.form`
-    display: flex;
-    flex-direction: column;
-`;
+  console.log(props);
+  return (
+    <Fade>
+      <div className="container d-none d-md-block" style={{ marginBottom: 30 }}>
+        <div className="row justify-content-center align-items-center">
+          {/* <div className="col-5 border-right py-5" style={{ paddingRight: 80 }}>
+          </div> */}
+          <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
+            <Fade delay={600}>
+              <label htmlFor="firstName">First Name</label>
+              <InputText
+                id="firstName"
+                name="firstName"
+                value={data.firstName}
+                onChange={props.onChange}
+              />
 
-const Label = styled.span`
-    margin-left: 10px;
-    font-weight: 400;
-`;
+              <label htmlFor="lastName">Last Name</label>
+              <InputText
+                id="lastName"
+                name="lastName"
+                value={data.lastName}
+                onChange={props.onChange}
+              />
 
-const Input = styled.input`
-    flex: 1;
-    min-width: 30%;
-    margin: 5px 0;
-    padding: 7px;
-    border-radius: 20px;
-    border: 2px solid #81b29a;
-    // background-color: #f4f1de;
-`;
-const Button = styled.button`
-    margin-top: 0px;
-    min-width: 40%;
-    border: none;
-    padding: 10px;
-    background: #10B57A;
-    color: white;
-    cursor: pointer;
-    margin: 30px 0;
-    border-radius: 50px;
-`;
+              <label htmlFor="email">Email Address</label>
+              <InputText
+                id="email"
+                name="email"
+                type="email"
+                value={data.email}
+                onChange={props.onChange}
+              />
 
-const FormText = styled.p`
-    text-align: center;
-    margin: 5px 0;
-    font-weight: 400;
-`;
-const Link = styled.a`
-    text-align: center;
-    color: #6589AB;
-    margin: 5px 0;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-`;
-    return (
-      <>
-        <HeaderDark {...this.props}></HeaderDark>
-        <Container>
-            <RegisterWrapper>
-                <Right>
-                    <Wrapper>
-                        <Title>Registrasi Sekarang</Title>
-                        <Form>
-                            <Label>Nama Lengkap</Label>
-                            <Input placeholder="Nama Lengkap" type="text" />
-                            <Label>Alamat Lengkap</Label>
-                            <Input placeholder="Alamat Lengkap" type="text" />
-                            <Label>No. Whatsapp Aktif</Label>
-                            <Input placeholder="No. WA Aktif" type="text" />
-                            <Label>E-mail</Label>
-                            <Input placeholder="E-mail" type="text" />
-                            <Label>Sandi</Label>
-                            <Input placeholder="Sandi" type="password" />
-                            <Button>Register</Button>
-                            <FormText>Sudah Punya akun Gypsophila?</FormText>
-                            <Link className="mx-auto" href="/login" type="link">Login</Link>
-                        </Form>
-                    </Wrapper>
-                </Right>
-            </RegisterWrapper>
-        </Container>
-        <Footer />
-      </>
-    );
-  }
+              <label htmlFor="phone">Phone Number</label>
+              <InputText
+                id="phone"
+                name="phone"
+                type="tel"
+                value={data.phone}
+                onChange={props.onChange}
+              />
+            </Fade>
+          </div>
+        </div>
+      </div>
+
+      <div className="container d-block d-md-none" style={{ marginBottom: 30 }}>
+        <div className="row">
+          <div className="col-12 py-5">
+            <Fade delay={600}>
+              <label htmlFor="firstName">First Name</label>
+              <InputText
+                id="firstName"
+                name="firstName"
+                value={data.firstName}
+                onChange={props.onChange}
+              />
+
+              <label htmlFor="lastName">Last Name</label>
+              <InputText
+                id="lastName"
+                name="lastName"
+                value={data.lastName}
+                onChange={props.onChange}
+              />
+
+              <label htmlFor="email">Email Address</label>
+              <InputText
+                id="email"
+                name="email"
+                type="email"
+                value={data.email}
+                onChange={props.onChange}
+              />
+
+              <label htmlFor="phone">Phone Number</label>
+              <InputText
+                id="phone"
+                name="phone"
+                type="tel"
+                value={data.phone}
+                onChange={props.onChange}
+              />
+            </Fade>
+          </div>
+        </div>
+      </div>
+    </Fade>
+  );
 }
-
-export default Register;

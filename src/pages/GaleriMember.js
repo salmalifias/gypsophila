@@ -24,6 +24,14 @@ class GaleriMember extends Component {
         margin-bottom: 45px;
 `;
 
+<<<<<<< Updated upstream
+=======
+//     const Image = styled.img`
+//     width: 80%;
+// `;
+
+
+>>>>>>> Stashed changes
     return (
       <>
         <HeaderMember {...this.props}></HeaderMember>

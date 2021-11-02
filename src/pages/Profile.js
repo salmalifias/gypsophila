@@ -22,6 +22,15 @@ class Profile extends Component {
         margin-top: 50px;
         text-align: justify;
     `;
+<<<<<<< Updated upstream
+=======
+    // const ListGroup = styled.div`
+    //     margin : 0;
+    // `;
+    // const ListGroup.Item = styled.div`
+    //     margin : 0;
+    // `;
+>>>>>>> Stashed changes
 
     return (
       <>
