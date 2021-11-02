@@ -24,14 +24,6 @@ class Help extends Component {
         margin-bottom: 50px;
     `;
 
-<<<<<<< Updated upstream
-=======
-    // const Image = styled.img`
-    //     width: 80%;
-    // `;
-
-
->>>>>>> Stashed changes
     return (
       <>
         <Header {...this.props}></Header>
