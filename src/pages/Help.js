@@ -24,11 +24,6 @@ class Help extends Component {
         margin-bottom: 50px;
     `;
 
-    const Image = styled.img`
-        width: 80%;
-    `;
-
-
     return (
       <>
         <Header {...this.props}></Header>

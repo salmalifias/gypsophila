@@ -16,16 +16,6 @@ const LoginWrapper = styled.div`
     align-items: center;
     justify-content: center;
 `;
-const Left = styled.div`
-    flex: 3;
-    height: 100vh;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-`;
-const Image = styled.img`
-    width: 80%;
-`;
 const Right = styled.div`
     flex: 2;
     height: 100vh;
@@ -34,7 +24,6 @@ const Right = styled.div`
     align-items: center;
     justify-content: center;
 `;
-
 const Wrapper = styled.div`
     margin-top: 60px;
     width: 75%;

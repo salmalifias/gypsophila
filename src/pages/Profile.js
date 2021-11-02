@@ -22,12 +22,6 @@ class Profile extends Component {
         margin-top: 50px;
         text-align: justify;
     `;
-    const ListGroup = styled.div`
-        margin : 0;
-    `;
-    // const ListGroup.Item = styled.div`
-    //     margin : 0;
-    // `;
 
     return (
       <>
@@ -42,7 +36,7 @@ class Profile extends Component {
                 <Col lg={true} xs lg="4">
                 <img style={{width:'100px', height:'100px', marginLeft:'140px', marginBottom:'20px', marginTop:'10px', marginRight:'140px'}} src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/000000/external-User-essential-collection-bearicons-glyph-bearicons.png" rounded fluid />
                     <Cardp 
-                        body1='Salma Alifia Safira'/>
+                        title='Salma Alifia Safira'/>
                     <Cardp 
                         body1='Profil' body2='Pemesanan' body3='Keluar'/>
                 </Col>
