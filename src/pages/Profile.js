@@ -42,7 +42,7 @@ class Profile extends Component {
                 </Col>
                 <Col lg={true} md="auto">
                     <Cardprofile 
-                        title='Lengkapi Profil' body1='Nama Lengkap' body2='Alamat' body3='No WhatsApp' body4='Email'/>
+                        title='Data Diri' body1='Nama Lengkap' body2='Alamat' body3='No WhatsApp' body4='Email'/>
                 </Col>
                 </Row>
             </Paragraf>
