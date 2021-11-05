@@ -24,11 +24,6 @@ class Galeri extends Component {
         margin-bottom: 45px;
 `;
 
-    const Image = styled.img`
-    width: 80%;
-`;
-
-
     return (
       <>
         <HeaderDark {...this.props}></HeaderDark>

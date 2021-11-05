@@ -6,6 +6,7 @@ import Card from "parts/Card";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 class Help extends Component {
   render() {
     const Containerr = styled.div`
@@ -24,11 +25,6 @@ class Help extends Component {
         margin-bottom: 50px;
     `;
 
-    const Image = styled.img`
-        width: 80%;
-    `;
-
-
     return (
       <>
         <Header {...this.props}></Header>
@@ -41,7 +37,8 @@ class Help extends Component {
                     <Card className="m-5 d-block"
                       title='Akun'
                       imageUrl='https://pbs.twimg.com/media/FCJ0w0EUcAUgCrM?format=png&name=360x360'
-                      body='Akun kamu bermasalah? Cek masalahnya disini' />
+                      body='Akun kamu bermasalah? Cek masalahnya disini' 
+                      />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
@@ -56,8 +53,44 @@ class Help extends Component {
                       body='Fitur lain bermasalah? Cek masalahnya disini' />
                   </Col>
               </Row>
-        
-              
+
+
+        <img src="https://pbs.twimg.com/media/FCJ0w0EUcAUgCrM?format=png&name=360x360" style={{marginLeft:"360px"}}></img>
+          <Text3>
+            <h2>How to Register</h2>
+          </Text3>
+          <ol>
+            <li>Masuk ke halaman register</li>
+            <li>Masukkan nama, alamat, nomor WhatsApp, email, dan kata sandi</li>
+            <li>Selanjutnya akan otomatis masuk ke halaman homepage</li>
+            <li>Jika tidak bisa melakukan register silahkan hubungi info@gypsophila.com</li>
+        </ol>
+        <br></br><br></br><br></br>
+
+        <img src="https://pbs.twimg.com/media/FCJ0y7pUcAkJPLj?format=png&name=360x360" style={{marginLeft:"360px"}}></img>
+          <Text3>
+            <h2>How to Book</h2>
+          </Text3>
+          <ol>
+            <li>Pilih paket yang kamu inginkan</li>
+            <li>Masukkan jumlah orang dan tanggal pemesanan pada formulir di bawah kanan. Lalu klik Lanjutkan Pesanan</li>
+            <li>Lalu cek kembali data diri yang terdapat pada halaman selanjutnya</li>
+            <li>Pada halaman pembayaran, silahkan pilih bank atau e-wallet yang dituju. Kemudian silahkan upload bukti pembayaran, asal bank, beserta nama pengirim. Lalu klik Lanjutkan pesanan</li>
+            <li>Setelah itu akan muncul pembayaran berhasil. Silahkan cek WhatsApp anda untuk detail pesanan. (Jika tidak menerima WhatsApp dalam 24 jam silahkan hubungi info@gypsophila.com</li>
+        </ol>
+
+        <br></br><br></br><br></br>
+        <img src="https://pbs.twimg.com/media/FCJ00tTUcAsjF6h?format=png&name=360x360" style={{marginLeft:"360px"}}></img>
+          <Text3>
+            <h2>How to Cancel Book</h2>
+          </Text3>
+          <ol>
+            <li>Pembatalan hanya bisa dilakukan melalui email info@gypsophila.com </li>
+            <li>Untuk pembatalan maksimal 3 hari dari hari pemesanan</li>
+            <li>Jika sudah sesuai dengan kebijakan yang tersedia maka uang akan segera dikembalikan dalam 5 hari kerja</li>
+        </ol>
+        <br></br><br></br><br></br>
+
         </Containerr> 
         <Footer/>
       </>

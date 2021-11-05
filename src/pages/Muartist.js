@@ -26,15 +26,6 @@ const Title = styled.h1`
     font-weight: 500;
     margin-bottom: 45px;
 `;
-const a = styled.a`
-    text-transform:uppercase;
-    color: #189CFC;
-    text-decoration:none;
-    font-weight:bold;
-    margin-right:100px;
-    align-items: center;
-    justify-content:center; 
-`;
 
     return (
       <>

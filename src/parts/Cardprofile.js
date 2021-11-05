@@ -7,19 +7,19 @@ function Cardprofile({title, body1, body2, body3, body4}){
                 <h5 style={{marginLeft:"30px"}}>{title}</h5>
                 <div className='label'>
                     <p>{body1}</p>
-                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body1}/>
+                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body1} readOnly/>
                 </div>
                 <div className='label'>
                     <p>{body2}</p>
-                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body2}/>
+                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body2} readOnly/>
                 </div>
                 <div className='label'>
                     <p>{body3}</p>
-                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body3}/>
+                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body3} readOnly/>
                 </div>
                 <div className='label'>
                     <p>{body4}</p>
-                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body4}/>
+                    <input style={{width:"100%", borderRadius:"5px", borderWidth:"1px"}} type="text" name="name" placeholder={body4} readOnly/>
                 </div>
         </div>
     )

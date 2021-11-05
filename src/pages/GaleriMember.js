@@ -23,12 +23,6 @@ class GaleriMember extends Component {
         font-weight: 500;
         margin-bottom: 45px;
 `;
-
-    const Image = styled.img`
-    width: 80%;
-`;
-
-
     return (
       <>
         <HeaderMember {...this.props}></HeaderMember>
