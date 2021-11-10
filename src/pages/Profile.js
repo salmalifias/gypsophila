@@ -28,12 +28,12 @@ class Profile extends Component {
         <HeaderMember {...this.props}></HeaderMember>
         {/* <Container> */}
             <Text1> 
-            <h2>Profile</h2>
+            <h2>Profile </h2>
             </Text1>
             <Paragraf>
                 
                 <Row lg={true}>
-                <Col lg={true} xs lg="4">
+                <Col xs lg="4">
                 <img style={{width:'100px', height:'100px', marginLeft:'140px', marginBottom:'20px', marginTop:'10px', marginRight:'140px'}} src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/000000/external-User-essential-collection-bearicons-glyph-bearicons.png" rounded fluid />
                     <Cardp 
                         title='Salma Alifia Safira'/>

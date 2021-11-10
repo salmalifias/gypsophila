@@ -16,13 +16,6 @@ const RegisterWrapper = styled.div`
     align-items: center;
     justify-content: center;
 `;
-const Left = styled.div`
-    flex: 3;
-    height: 100vh;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-`;
 const Right = styled.div`
     flex: 2;
     height: 100vh;
