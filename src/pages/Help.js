@@ -55,7 +55,7 @@ class Help extends Component {
               </Row>
 
 
-        <img src="https://pbs.twimg.com/media/FCJ0w0EUcAUgCrM?format=png&name=360x360" style={{marginLeft:"360px"}}></img>
+        {/* <img src="https://pbs.twimg.com/media/FCJ0w0EUcAUgCrM?format=png&name=360x360" style={{marginLeft:"360px"}}></img>
           <Text3>
             <h2>How to Register</h2>
           </Text3>
@@ -65,7 +65,7 @@ class Help extends Component {
             <li>Selanjutnya akan otomatis masuk ke halaman homepage</li>
             <li>Jika tidak bisa melakukan register silahkan hubungi info@gypsophila.com</li>
         </ol>
-        <br></br><br></br><br></br>
+        <br></br><br></br><br></br> */}
 
         <img src="https://pbs.twimg.com/media/FCJ0y7pUcAkJPLj?format=png&name=360x360" style={{marginLeft:"360px"}}></img>
           <Text3>

@@ -73,11 +73,11 @@ export default function Header(props) {
                     MU Artist
                   </Button>
                 </li>
-                <li>
+                {/* <li>
                   <Button className="btn px-5" type="link" href="/login" hasShadow isPrimary>
                     Login
                   </Button>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
