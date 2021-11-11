@@ -32,12 +32,14 @@
     "reactstrap": "^9.0.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "serve": "^13.0.2",
     "styled-components": "^5.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
