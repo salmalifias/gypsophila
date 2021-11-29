@@ -6,9 +6,9 @@ import Card from "parts/Card";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Salma from "./pengembang/salma.jpg";
-import Shena from "./pengembang/shena.jpg";
-import Hana from "./pengembang/hana.jpg";
+import Salma from "pengembang/salma.jpg";
+import Shena from "pengembang/shena.jpg";
+import Hana from "pengembang/hana.jpg";
 
 class TentangMember extends Component {
   render() {
