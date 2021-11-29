@@ -35,22 +35,22 @@ class Help extends Component {
           <Row xs="auto" className="g-4">
                   <Col lg={true}>
                     <Card className="m-5 d-block"
-                      title='Akun'
+                      title='Pilih Paket'
                       imageUrl='https://pbs.twimg.com/media/FCJ0w0EUcAUgCrM?format=png&name=360x360'
-                      body='Akun kamu bermasalah? Cek masalahnya disini' 
+                      body='Jangan lupa pilih paketmu terlebih dahulu!' 
                       />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
-                      title='Booking'
+                      title='Pemesanan'
                       imageUrl='https://pbs.twimg.com/media/FCJ0y7pUcAkJPLj?format=png&name=360x360'
                       body='Proses booking kamu bermasalah? Cek masalahnya disini' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
-                      title='Lainnya'
+                      title='Cancel Book'
                       imageUrl='https://pbs.twimg.com/media/FCJ00tTUcAsjF6h?format=png&name=360x360'
-                      body='Fitur lain bermasalah? Cek masalahnya disini' />
+                      body='Ingin melakukan cancel booking? Cek disini' />
                   </Col>
               </Row>
 
