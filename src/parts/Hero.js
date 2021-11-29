@@ -114,7 +114,7 @@ export default function Hero(props) {
                     alt="icon city"
                   />
                   <h6 className="font-weight-bold">
-                    {props.data.pelanggan} MakeUp Artist
+                    9 MakeUp Artist
                   </h6>
                   <p className="text-gray-600">Artist profesional untuk anda</p>
                 </div>
@@ -124,7 +124,7 @@ export default function Hero(props) {
                     className="float-left"
                     alt="icon city"
                   />
-                  <h6 className="font-weight-bold">30 Foto Galeri</h6>
+                  <h6 className="font-weight-bold">9 Foto Galeri</h6>
                   <p className="text-gray-600">Hasil Makeup oleh Artist kami</p>
                 </div>
               </div>

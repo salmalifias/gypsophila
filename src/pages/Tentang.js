@@ -56,21 +56,21 @@ const Detail = styled.span`
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Sharashena C'
-                      imageUrl='https://i.ibb.co/94wQvR8/shena.png'
+                      imageUrl='https://i.ibb.co/QmV8Fqm/shena.jpg'
                       subtitle='140810180022'
                       body='Project Manager' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Hana Meilina F'
-                      imageUrl='https://i.ibb.co/qnQ5GZr/hana.png'
+                      imageUrl='https://i.ibb.co/hHQ3XXW/hana.jpg'
                       subtitle='140810180012'
                       body='Front End Developer' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Salma Alifia Shafira'
-                      imageUrl='https://i.ibb.co/rMKf5Zx/salma.png'
+                      imageUrl='https://i.ibb.co/M9NCLcq/salma.jpg'
                       subtitle='140810180058'
                       body='Back End Developer' />
                   </Col>
