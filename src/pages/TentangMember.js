@@ -56,7 +56,7 @@ const Detail = styled.span`
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Sharashena C'
-                      imageUrl='https://i.ibb.co/QmV8Fqm/shena.jpg'
+                      imageUrl='https://i.ibb.co/D5FZN1F/shena.jpg'
                       subtitle='140810180022'
                       body='Project Manager' />
                   </Col>
