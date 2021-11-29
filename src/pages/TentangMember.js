@@ -6,10 +6,6 @@ import Card from "parts/Card";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Salma from "pengembang/salma.jpg";
-import Shena from "pengembang/shena.jpg";
-import Hana from "pengembang/hana.jpg";
-
 class TentangMember extends Component {
   render() {
     const Container = styled.div`
@@ -60,21 +56,21 @@ const Detail = styled.span`
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Sharashena C'
-                      imgsrc={Shena}
+                      imageUrl='https://i.ibb.co/94wQvR8/shena.png'
                       subtitle='140810180022'
                       body='Project Manager' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Hana Meilina F'
-                      imgsrc={Hana}
+                      imageUrl='https://i.ibb.co/qnQ5GZr/hana.png'
                       subtitle='140810180012'
                       body='Front End Developer' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Salma Alifia Shafira'
-                      imgsrc={Salma}
+                      imageUrl='https://i.ibb.co/rMKf5Zx/salma.png'
                       subtitle='140810180058'
                       body='Back End Developer' />
                   </Col>
