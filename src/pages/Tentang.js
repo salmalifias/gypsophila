@@ -52,25 +52,25 @@ const Detail = styled.span`
                 <br></br>Lokasi Kantor             : Jl. Puri Casablanca, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12870
             </Detail>
             <TitleCabang>Pengembang Aplikasi</TitleCabang>
-                <Row xs="auto" className="g-4">
+            <Row xs="auto" className="g-4">
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Sharashena C'
-                      imageUrl='https://pbs.twimg.com/media/FCm9SFjUYAA85Kt?format=jpg&name=small'
+                      imageUrl='https://drive.google.com/file/d/1D4BjD93_bLUPNLrPgjucXeo0Uh79gkUA/view?usp=sharing'
                       subtitle='140810180022'
                       body='Project Manager' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Hana Meilina F'
-                      imageUrl='https://pbs.twimg.com/media/FCm9SFmVkAU1vrf?format=jpg&name=small'
+                      imageUrl='https://drive.google.com/file/d/10gmV0HJjMvzW3Eal_aWSehlhs7QfgPfX/view?usp=sharing'
                       subtitle='140810180012'
                       body='Front End Developer' />
                   </Col>
                   <Col lg={true}>
                     <Card className="m-5 d-block"
                       title='Salma Alifia Shafira'
-                      imageUrl='https://pbs.twimg.com/media/FCm9SFiVgAMwj2B?format=jpg&name=900x900'
+                      imageUrl='https://drive.google.com/file/d/156gGPDbW64xwXZJ3RHvlliLx6EawLCJB/view?usp=sharing'
                       subtitle='140810180058'
                       body='Back End Developer' />
                   </Col>
