@@ -47,7 +47,7 @@ const Detail = styled.span`
         <Container>
             <Wrapper>
             <Title>Tentang Kami</Title>
-            <Detail>Gypsophila adalah sistem pemesanan jasa makeup artist berbasis website. Kami merupakan satu komunitas dengan sekumpulan MUA Profesional. Anda dapat memesan melalui aplikasi kami setelah melakukan registrasi akun. Pemesanan dapat menentukkan berapa orang yang akan melakukan MakeUp dan juga menentukkan untuk hari apa saja. Anda dapat memesan dalam waktu minimal 3 hari sebelum acara dan dapat membatalkan pemesanan 2 hari sebelum acara terlaksana.
+            <Detail>Gypsophila adalah sistem pemesanan jasa makeup artist berbasis website. Kami merupakan satu komunitas dengan sekumpulan MUA Profesional di Jakarta. Anda dapat memesan melalui aplikasi kami setelah melakukan registrasi akun. Pemesanan dapat menentukkan berapa orang yang akan melakukan MakeUp dan juga menentukkan untuk hari apa saja. Anda dapat memesan dalam waktu minimal 1 hari sebelum acara dan dapat membatalkan pemesanan 5 jam sebelum makeup terlaksana.
                 <br></br>Daerah Pemesanan              : Jakarta
                 <br></br>Lokasi Kantor             : Jl. Puri Casablanca, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12870
             </Detail>
