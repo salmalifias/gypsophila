@@ -25,7 +25,7 @@ export default function MostPicked(props) {
                   }`}
                 >
                   <Fade bottom delay={400 * index}>
-                    <div className="card card-featured">
+                    <div className="card card-featured shadow p-5 mb-5">
                       <div className="tag">
                         Rp. {formatNumber(item.price)}
                         <span className="font-weight-light">
@@ -88,8 +88,8 @@ export default function MostPicked(props) {
                 return (
                   <div className="item" key={`mostpicked-${index}`}>
                     <div
-                      className="card card-featured"
-                      style={{ height: 220, borderRadius: 5 }}
+                      className="card card-featured shadow p-5 mb-5"
+                      style={{ height: 220, borderRadius: 5, shadowColor: 'gray', shadowOffset: { width: 2, height: 2 }, shadowOpacity: 0.5, shadowRadius: 2 }}
                     >
                       <div className="tag" style={{ borderRadius: 5 }}>
                         Rp. {formatNumber(item.price)}

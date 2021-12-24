@@ -3,6 +3,8 @@ import Fade from "react-reveal/Fade";
 
 import { InputText } from "elements/Form";
 import formatNumber from "utils/formatNumber";
+import { colors } from "@material-ui/core";
+import { light } from "@material-ui/core/styles/createPalette";
 
 export default function BookingInformation(props) {
   const { data, ItemDetails, checkout } = props;
@@ -22,7 +24,7 @@ export default function BookingInformation(props) {
                     alt={ItemDetails.title}
                   />
                 </figure>
-                <div className="row align-items-center">
+                <div className="row">
                   <div className="col">
                     <div className="meta-wrapper">
                       <h5>{ItemDetails.title}</h5>

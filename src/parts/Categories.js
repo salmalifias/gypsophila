@@ -37,7 +37,7 @@ export default function Categories({ data }) {
                             </div>
                           )}
                           <figure
-                            className="img-wrapper"
+                            className="img-wrapper shadow"
                             style={{ height: 180 }}
                           >
                             <img

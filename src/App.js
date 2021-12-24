@@ -38,8 +38,6 @@ function App() {
           <Route exact path="/mu-artistmember" component={MuartistMember} />
           <Route exact path="/properties/:id" component={DetailsPage} />
           <Route path="/checkout" component={Checkout} />
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
           <Route path="/term" component={Term} />
           <Route path="/galeri" component={Galeri} />
           <Route path="/galerimember" component={GaleriMember} />
@@ -49,6 +47,9 @@ function App() {
           <Route path="*" component={PageNotFound} />
         </Switch>
       </Router>
+
+      {/* <Route path="/login" component={Login} />
+      <Route path="/register" component={Register} /> */}
 
       <ToastContainer></ToastContainer>
     </div>
